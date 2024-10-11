@@ -18,11 +18,13 @@
     --h3: 800 14px/140% var(--font-family);
     --text-span:600 14px/145% var(--font-family);
     --text: 600 14px/145% var(--font-family);
+    --text-sm: 600 14px/160% var(--font-family);
 
  }
  body {
     color: var(--text-color-primary);
     background-color: var(--bg-color);
+    font: var(--text-sm);
  }
 
  a {
