@@ -76,3 +76,25 @@ p {
     
 }
 }
+#ai 
+
+    header a {
+    
+        justify-self: end;
+        span {
+                background-image: url(../assets/icons/ArrowRight.svg);
+                height: 16px;
+                width: 16px;
+        }
+}
+#more
+
+    header a {
+    
+        justify-self: end;
+        span {
+                background-image: url(../assets/icons/ArrowRight.svg);
+                height: 16px;
+                width: 16px;
+        }
+}
