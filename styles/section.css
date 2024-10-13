@@ -6,6 +6,7 @@ section header {
 }
 
 #featured {
+    grid-area: featured;
     img {
         height: 100%;
         object-fit: cover;
@@ -44,7 +45,7 @@ section header {
     }
 }
 #weekly {
-
+    grid-area: weekly;
 header a {
 
     justify-self: end;
@@ -76,8 +77,24 @@ p {
     
 }
 }
-#ai 
+#ai {
 
+    header a {
+    
+        justify-self: end;
+        span {
+                background-image: url(../assets/icons/ArrowRight.svg);
+                height: 16px;
+                width: 16px;
+        }
+    }
+}
+#more {
+    margin-top: 32px;
+    h3 {
+        margin-top: 8px;
+    
+    }
     header a {
     
         justify-self: end;
@@ -87,14 +104,33 @@ p {
                 width: 16px;
         }
 }
-#more
+}
 
-    header a {
-    
-        justify-self: end;
-        span {
-                background-image: url(../assets/icons/ArrowRight.svg);
-                height: 16px;
-                width: 16px;
-        }
+#ai {
+    img {
+        width: 176px;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    }
+    h3 {
+        margin-block: 8px 4px;
+
+    }
+}
+
+aside {
+    grid-area: aside;
+    img {
+        width: 72px;
+        aspect-ratio: 1/1;
+        object-fit: cover;
+        
+    }
+}
+
+#ads {
+    img {
+        width: 488px;
+        height: 280px;
+    }
 }
